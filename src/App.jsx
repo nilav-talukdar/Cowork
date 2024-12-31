@@ -1,12 +1,12 @@
-import React from 'react'
-import Navbar from './components/Navbar'
+import React from "react";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <main className='min-h-screen max-w-screen overflow-x-hidden px-[20px] md:px-[64px]'>
+    <main className="min-h-screen max-w-screen overflow-x-hidden relative">
       <Navbar />
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;
